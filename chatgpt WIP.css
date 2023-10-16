@@ -137,3 +137,11 @@ strong{
 .dark .dark\:hover\:bg-gray-700:hover {
     background-color: var(--text-primary);
 }
+
+::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #000;
+}
