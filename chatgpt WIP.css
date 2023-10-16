@@ -189,3 +189,11 @@ strong{
 .text-2xl {
     color: var(--text-primary);
 }
+
+.dark .dark\:text-gray-600 {
+    color: var(--text-primary);
+}
+
+.dark .dark\:bg-gray-900 {
+    opacity: 0;
+}
