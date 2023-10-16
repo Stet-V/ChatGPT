@@ -2,6 +2,10 @@
     --text-primary: rgb(22, 22, 22);
 }
 
+html{
+    user-select: none;
+}
+
 .bg-gray-900 {
     display:none;
 }
@@ -28,6 +32,9 @@
 
 .dark .dark\:border-gray-900\/50 {
     border: none;
+    --tw-shadow: none;
+    --tw-shadow-colored: none;
+    box-shadow: none;
 }
 
 
@@ -68,6 +75,7 @@
 
 .icon-sm {
     color: var(--text-primary);
+    background: #000;
 }
 
 .icon-xs {
@@ -75,5 +83,57 @@
 }
 
 .prose {
+    color: var(--text-primary) !important;
+}
+
+.dark .dark\:text-gray-200 {
+    color: #000;
+}
+
+.xl\:max-w-3xl {
+    max-width: 80rem;
+}
+
+.md\:h-48 {
+    height: 8rem;
+}
+
+.enabled\:bg-brand-purple:enabled {
+    background-color: #000 !important;
+}
+
+ ::placeholder{
+    color: var(--text-primary) !important;
+}
+
+strong{
+    color: var(--text-primary) !important; 
+}
+
+.markdown ol>li:before {
+    color: var(--text-primary) !important; 
+}
+
+
+.rounded-sm {
+    opacity: 0;
+}
+
+.text-white {
+    display: block;
     color: var(--text-primary);
+    background-color: #000 !important;
+}
+
+.m-1 {
+    margin: 0;
+}
+
+.react-scroll-to-bottom--css-jplah-1n7m0yu {
+    right: -10px;
+    position: fixed;
+}
+
+.dark .dark\:hover\:bg-gray-700:hover {
+    background-color: var(--text-primary);
 }
