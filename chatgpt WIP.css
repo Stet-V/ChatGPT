@@ -141,3 +141,7 @@ strong{
 .dark .dark\:hover\:bg-gray-700:hover {
     background-color: #000;
 }
+
+.h-32 {
+    height: 8rem;
+}
