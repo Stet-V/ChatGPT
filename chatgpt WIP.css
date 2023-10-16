@@ -181,3 +181,11 @@ strong{
 .hljs-doctag, .hljs-formula, .hljs-keyword, .hljs-literal, .hljs-bullet, .hljs-link, .hljs-selector-id, .hljs-symbol, .hljs-title, .hljs-attr, .hljs-number, .hljs-selector-attr, .hljs-selector-class, .hljs-selector-pseudo, .hljs-template-variable, .hljs-type, .hljs-variable, .hljs-addition, .hljs-attribute, .hljs-meta-string, .hljs-regexp, .hljs-string, .hljs-comment {
     color: var(--text-primary);
 }
+
+.flex-shrink-0 {
+    color: var(--text-primary);
+}
+
+.text-2xl {
+    color: var(--text-primary);
+}
