@@ -1,17 +1,14 @@
 .dark {
-    --text-primary: rgb(22, 22, 22);
+    --text-primary: rgb(255 255 255);
 }
 
 html{
     user-select: none;
 }
 
-.bg-gray-900 {
-    display:none;
-}
-
 .dark .dark\:text-gray-300{
-    color: transparent;
+    color: #000;
+    background: #000;
 }
 
 .text-gray-400 {
@@ -120,7 +117,6 @@ strong{
 }
 
 .text-white {
-    display: block;
     color: var(--text-primary);
     background-color: #000 !important;
 }
