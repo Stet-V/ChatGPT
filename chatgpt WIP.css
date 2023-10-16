@@ -1,3 +1,7 @@
+.dark {
+    --text-primary: rgb(22, 22, 22);
+}
+
 .bg-gray-900 {
     display:none;
 }
@@ -24,4 +28,52 @@
 
 .dark .dark\:border-gray-900\/50 {
     border: none;
+}
+
+
+.dark .dark\:bg-gray-800 {
+    background: #000;
+}
+
+.dark .btn-neutral {
+    background: #000;
+    border-radius: 1px;
+    border-color: var(--text-primary);
+    color: var(--text-primary);
+}
+
+.dark .btn-neutral:hover {
+    background: #000;
+}
+
+#prompt-textarea {
+    background: #000;
+    color: var(--text-primary);
+    border: 1px solid var(--text-primary);
+}
+
+.disabled\:opacity-40:disabled {
+    opacity: 1;
+    color: var(--text-primary);
+}
+
+.disabled\:text-gray-400:disabled {
+    --tw-text-opacity: 1;
+    color: var(--text-primary);
+}
+
+*,:after,:before {
+    border: none;
+}
+
+.icon-sm {
+    color: var(--text-primary);
+}
+
+.icon-xs {
+    color: var(--text-primary);
+}
+
+.prose {
+    color: var(--text-primary);
 }
