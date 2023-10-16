@@ -1,0 +1,15 @@
+.bg-gray-900 {
+    display:none;
+}
+
+.dark .dark\:text-gray-300{
+    color: transparent;
+}
+
+.text-gray-400 {
+    display: none;
+}
+
+.md\:block {
+    display: none !important;
+}
