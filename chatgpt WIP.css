@@ -13,3 +13,15 @@
 .md\:block {
     display: none !important;
 }
+
+.dark body, .dark html {
+    background: #000;
+}
+
+.dark .dark\:bg-\[\#444654\] {
+    background: #000;
+}
+
+.dark .dark\:border-gray-900\/50 {
+    border: none;
+}
