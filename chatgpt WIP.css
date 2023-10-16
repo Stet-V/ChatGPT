@@ -1,5 +1,5 @@
 .dark {
-    --text-primary: rgb(255 255 255);
+    --text-primary: rgb(22 22 22);
 }
 
 html{
@@ -142,7 +142,7 @@ strong{
 }
 
 .md\:max-w-3xl {
-    max-width: 80%;
+    max-width: 80%; 
 }
 
 .xl\:max-w-3xl { 
