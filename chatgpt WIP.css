@@ -53,6 +53,7 @@ html{
 #prompt-textarea {
     background: #000;
     color: var(--text-primary);
+    border: 1px solid var(--text-primary);
 }
 
 .disabled\:opacity-40:disabled {
@@ -86,10 +87,6 @@ html{
     color: #000;
 }
 
-.xl\:max-w-3xl {
-    max-width: 80rem;
-}
-
 .md\:h-48 {
     height: 8rem;
 }
@@ -109,7 +106,6 @@ strong{
 .markdown ol>li:before {
     color: var(--text-primary) !important; 
 }
-
 
 .rounded-sm {
     opacity: 0;
@@ -143,4 +139,8 @@ strong{
 
 .h-32 {
     height: 8rem;
+}
+
+.xl\:max-w-3xl { 
+    max-width: 80%; 
 }
