@@ -169,7 +169,7 @@ strong{
     color: var(--text-primary) !important;
 }
 
-.markdown a {
+.markdown a, .markdown a:hover {
     color: var(--text-primary);
 }     
 
