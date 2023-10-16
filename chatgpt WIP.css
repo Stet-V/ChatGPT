@@ -54,6 +54,7 @@ html{
     background: #000;
     color: var(--text-primary);
     border: 1px solid var(--text-primary);
+    text-decoration: none;
 }
 
 .disabled\:opacity-40:disabled {
@@ -152,4 +153,31 @@ strong{
 
 .md\:\!bg-transparent {
     background-color: #000 !important;
+}
+
+::selection {
+    background-color: var(--text-primary);
+    color: #000; 
+}
+
+::-webkit-selection {
+    background-color: var(--text-primary);
+    color: #000; 
+}
+
+.prose :where(code):not(:where([class~=not-prose] *)) {
+    color: var(--text-primary) !important;
+}
+
+.markdown a {
+    color: var(--text-primary);
+}     
+
+.text-gray-200 {
+    background-color: #000;
+    color: var(--text-primary);
+}
+
+.hljs-doctag, .hljs-formula, .hljs-keyword, .hljs-literal, .hljs-bullet, .hljs-link, .hljs-selector-id, .hljs-symbol, .hljs-title, .hljs-attr, .hljs-number, .hljs-selector-attr, .hljs-selector-class, .hljs-selector-pseudo, .hljs-template-variable, .hljs-type, .hljs-variable, .hljs-addition, .hljs-attribute, .hljs-meta-string, .hljs-regexp, .hljs-string, .hljs-comment {
+    color: var(--text-primary);
 }
