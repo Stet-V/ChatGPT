@@ -258,3 +258,7 @@ strong{
 .prose :where(thead):not(:where([class~=not-prose] *)) {
     border: none;
 }
+
+.prose :where(thead th):not(:where([class~=not-prose] *)) {
+    color: var(--text-primary);
+}
