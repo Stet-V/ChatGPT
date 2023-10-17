@@ -12,6 +12,7 @@
 
 html{
     user-select: none;
+    color: var(--text-primary) !important;
 }
 
 .dark .dark\:text-gray-300{
