@@ -241,6 +241,19 @@ strong{
     background-color: #000;
 }
 
+.markdown th {
+    background: #000;
+    border: none;
+}
+
+.katext-error {
+    color: var(--text-primary) !important;
+}
+
 .animate-flash {
     animation: none;
+}
+
+.prose :where(thead):not(:where([class~=not-prose] *)) {
+    border: none;
 }
