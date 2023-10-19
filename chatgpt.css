@@ -262,3 +262,7 @@ strong{
 .prose :where(thead th):not(:where([class~=not-prose] *)) {
     color: var(--text-primary);
 }
+
+.katex-error{
+    color: var(--text-primary) !important;
+}
