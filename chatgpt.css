@@ -266,3 +266,11 @@ strong{
 .katex-error{
     color: var(--text-primary) !important;
 }
+
+.hljs-meta{
+    color: var(--text-primary);
+}
+
+.hljs-built_in, .hljs-class .hljs-title {
+    color: var(--text-primary);
+}
