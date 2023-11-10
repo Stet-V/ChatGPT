@@ -281,3 +281,7 @@ strong{
 .dark .dark\:bg-gray-700 {
     background: #000;
 }
+
+.text-orange-500 {
+    color: var(--text-primary);
+}
