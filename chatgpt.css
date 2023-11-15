@@ -1,5 +1,5 @@
 .dark {
-    --text-primary: rgb(22 22 22);
+    --text-primary: rgb(22 22 22) !important;
     --text-secondary: var(--text-primary);
     --text-tertiary: var(--text-primary);
     --surface-primary: var(--text-primary);
@@ -284,4 +284,49 @@ strong{
 
 .text-orange-500 {
     color: var(--text-primary);
+}
+
+.dark .dark\:bg-gray-800\/90 {
+    background: #000;
+    color: var(--text-primary);
+}
+
+.text-token-text-secondary {
+    color: var(--text-primary);
+}
+
+.dark .gizmo-shadow-stroke:after {
+    box-shadow: none;
+    --tw-shadow: none;
+    --tw-shadow-colored: none;
+}
+
+.text-black {
+    color: #000;
+}
+
+.bg-white {
+    background: #000;
+}
+
+.text-token-text-tertiary {
+    color: var(--text-primary);
+}
+
+.bg-token-surface-secondary {
+    background: #000;
+}
+
+.gizmo :is(.dark .gizmo\:dark\:shadow-\[0_0_0_2px_rgba\(52\2c 53\2c 65\2c 0\.95\)\]) {
+    box-shadow: none;
+    --tw-shadow: none;
+    --tw-shadow-colored: none;
+}
+
+.gizmo :is(.dark .gizmo\:dark\:bg-gray-800) {
+    background: #000;
+}
+
+.gizmo :is(.dark .gizmo\:dark\:border-token-border-heavy) {
+    border-color: var(--text-primary);
 }
