@@ -330,3 +330,22 @@ strong{
 .gizmo :is(.dark .gizmo\:dark\:border-token-border-heavy) {
     border-color: var(--text-primary);
 }
+
+.bg-token-surface-primary {
+    color: #000;
+}
+
+.hover\:bg-token-surface-primary:hover {
+    color: var(--text-primary);
+    background: #000;
+}
+
+.dark .dark\:from-black, .group:hover .group-hover\:from-token-surface-primary {
+    --tw-gradient-from: transparent;
+    --tw-gradient-to: transparent;
+    --tw-gradient-stops: transparent;
+}
+
+.bg-token-text-primary {
+    background: var(--text-primary);
+}
