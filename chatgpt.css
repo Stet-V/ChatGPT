@@ -332,7 +332,8 @@ strong{
 }
 
 .bg-token-surface-primary {
-    color: #000;
+    background-color: #000;
+    color: var(--text-primary);
 }
 
 .hover\:bg-token-surface-primary:hover {
@@ -383,5 +384,44 @@ strong{
 }
 
 .dark .dark\:bg-white\/10 {
+    background-color: #000;
+}
+
+.dark .dark\:bg-gray-600\/70 {
+    background: transparent;
+}
+
+.text-green-600 {
+    color: var(--text-primary);
+}
+
+.btn-primary, .btn-primary:hover, .btn-disabled, .btn-disabled:hover, .btn-danger, .btn-danger:hover {
+    background-color: #000;
+    color: var(--text-primary);
+    border: 1px solid var(--text-primary);
+    border-radius: 1px;
+}
+
+.btn:disabled {
+    opacity: 1;
+}
+
+.dark .group:where([data-headlessui-state~=open]) .dark\:group-ui-open\:bg-token-surface-primary {
+    background-color: #000;
+}
+
+.dark .dark\:radix-state-active\:bg-token-surface-tertiary[data-state=active] {
+    background-color: #000;
+}
+
+.dark .dark\:hover\:bg-\[\#494A54\]:hover {
+    background-color: #000;
+}
+
+.dark .dark\:text-gray-400, .dark .dark\:text-gray-400:hover {
+    color: var(--text-primary);
+}
+
+.dark .dark\:bg-gray-800\/30 {
     background-color: #000;
 }
