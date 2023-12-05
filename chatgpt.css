@@ -366,7 +366,7 @@ strong{
 }
 
 .dark ::-webkit-scrollbar-thumb:hover, .dark ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb {
-    background-color: var(--text-primary);
+    background-color: #000;
 }
 
 .dark .dark\:border-gray-700 {
@@ -424,4 +424,13 @@ strong{
 
 .dark .dark\:bg-gray-800\/30 {
     background-color: #000;
+}
+
+.to-transparent {
+    background-color: transparent;
+    --tw-gradient-to: none;
+}
+
+.text-red-500 {
+    color: var(--text-primary);
 }
