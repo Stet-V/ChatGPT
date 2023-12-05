@@ -349,3 +349,39 @@ strong{
 .bg-token-text-primary {
     background: var(--text-primary);
 }
+
+.dark .dark\:bg-black {
+    color: var(--text-primary);
+}
+
+
+.dark .dark\:shadow-\[0_0_0_2px_rgba\(52\2c 53\2c 65\2c 0\.95\)\], .dark .dark\:shadow-\[inset_0_0_0_1px_rgba\(255\2c 255\2c 255\2c 0\.1\)\] {
+    box-shadow: none;
+}
+
+
+.dark .dark\:hover\:bg-token-surface-primary:hover {
+    background-color: #000;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover, .dark ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb {
+    background-color: var(--text-primary);
+}
+
+.dark .dark\:border-gray-700 {
+    background-color: #000;
+    color: var(--text-primary);
+}
+
+.\!bg-brand-purple {
+    background-color: #000 !important;
+    color: var(--text-primary);
+}
+
+.dark .dark\:hover\:bg-white\/5:hover {
+    background-color: #000;
+}
+
+.dark .dark\:bg-white\/10 {
+    background-color: #000;
+}
