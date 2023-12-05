@@ -434,3 +434,7 @@ strong{
 .text-red-500 {
     color: var(--text-primary);
 }
+
+:focus {
+    outline: none !important;
+}
