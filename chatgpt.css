@@ -15,7 +15,7 @@ html{
 }
 
 .dark .dark\:text-gray-300{
-    color: #000;
+    color: var(--text-primary);
     background: #000;
 }
 
