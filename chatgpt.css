@@ -302,7 +302,7 @@ strong{
 }
 
 .text-black {
-    color: #000;
+    color: var(--text-primary);
 }
 
 .bg-white {
