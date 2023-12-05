@@ -438,3 +438,11 @@ strong{
 :focus {
     outline: none !important;
 }
+
+.bg-token-surface-tertiary {
+    background-color: #000;
+}
+
+.text-gray-500 {
+    color: var(--text-primary);
+}
