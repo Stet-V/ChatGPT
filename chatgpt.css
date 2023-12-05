@@ -121,7 +121,7 @@ strong{
 }
 
 .text-white {
-    color: var(--text-primary);
+    color: var(--text-primary) !important;
     background-color: #000 !important;
     opacity: 1 !important;
 }
@@ -358,6 +358,8 @@ strong{
 
 .dark .dark\:shadow-\[0_0_0_2px_rgba\(52\2c 53\2c 65\2c 0\.95\)\], .dark .dark\:shadow-\[inset_0_0_0_1px_rgba\(255\2c 255\2c 255\2c 0\.1\)\] {
     box-shadow: none;
+    border: 1px solid var(--text-primary) !important;
+    border-radius: 1px;
 }
 
 
