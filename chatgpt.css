@@ -443,6 +443,22 @@ strong{
     background-color: #000;
 }
 
-.text-gray-500 {
+.text-gray-500, .text-gray-600, .text-gray-300 {
     color: var(--text-primary);
+}
+
+.border-gray-100 {
+    border-color: var(--text-primary);
+}
+
+.radix-state-checked\:bg-green-600[data-state=checked] {
+    background-color: var(--text-primary);
+}
+
+.bg-gray-200 {
+    background-color: var(--text-primary);
+}
+
+.dark .dark\:bg-token-surface-tertiary {
+    background-color: #000;
 }
