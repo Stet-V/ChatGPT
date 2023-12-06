@@ -20,7 +20,7 @@ html{
 }
 
 .text-gray-400 {
-    display: none;
+    color: var(--text-primary);
 }
 
 .md\:block {
