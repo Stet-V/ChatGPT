@@ -468,3 +468,7 @@ strong{
 .btn-danger:focus, .btn-neutral:focus {
     box-shadow: none;
 }
+
+.dark .dark\:bg-token-surface-primary {
+    background: #000;
+}
