@@ -353,6 +353,7 @@ strong{
 
 .dark .dark\:bg-black {
     color: var(--text-primary);
+    background-color: var(--surface-primary);
 }
 
 
@@ -474,5 +475,9 @@ strong{
 }
 
 .dark .dark\:bg-token-surface-secondary {
+    background: var(--surface-primary);
+}
+
+.bg-black {
     background: var(--surface-primary);
 }
