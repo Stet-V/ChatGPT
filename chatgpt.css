@@ -16,7 +16,7 @@ html{
 
 .dark .dark\:text-gray-300{
     color: var(--text-primary);
-    background: #000;
+    background: var(--surface-primary);
 }
 
 .text-gray-400 {
@@ -28,11 +28,11 @@ html{
 }
 
 .dark body, .dark html {
-    background: #000;
+    background: var(--surface-primary);
 }
 
 .dark .dark\:bg-\[\#444654\] {
-    background: #000;
+    background: var(--surface-primary);
 }
 
 .dark .dark\:border-gray-900\/50 {
@@ -44,22 +44,22 @@ html{
 
 
 .dark .dark\:bg-gray-800 {
-    background: #000;
+    background: var(--surface-primary);
 }
 
 .dark .btn-neutral {
-    background: #000;
+    background: var(--surface-primary);
     border-radius: 1px;
     border-color: var(--text-primary);
     color: var(--text-primary);
 }
 
 .dark .btn-neutral:hover {
-    background: #000;
+    background: var(--surface-primary);
 }
 
 #prompt-textarea {
-    background: #000;
+    background: var(--surface-primary);
     color: var(--text-primary);
     text-decoration: none;
 }
@@ -92,7 +92,7 @@ html{
 }
 
 .dark .dark\:text-gray-200 {
-    color: #000;
+    color: var(--surface-primary);
     background: transparent;
 }
 
@@ -101,7 +101,7 @@ html{
 }
 
 .enabled\:bg-brand-purple:enabled {
-    background-color: #000 !important;
+    background-color: var(--surface-primary) !important;
 }
 
  ::placeholder{
@@ -122,7 +122,7 @@ strong{
 
 .text-white {
     color: var(--text-primary) !important;
-    background-color: #000 !important;
+    background-color: var(--surface-primary) !important;
     opacity: 1 !important;
 }
 
@@ -135,15 +135,15 @@ strong{
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #000;
+    background: var(--surface-primary);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #000;
+    background-color: var(--surface-primary);
 }
 
 .dark .dark\:hover\:bg-gray-700:hover {
-    background-color: #000;
+    background-color: var(--surface-primary);
 }
 
 .h-32 {
@@ -159,17 +159,17 @@ strong{
 }
 
 .md\:\!bg-transparent {
-    background-color: #000 !important;
+    background-color: var(--surface-primary) !important;
 }
 
 ::selection {
     background-color: var(--text-primary);
-    color: #000; 
+    color: var(--surface-primary);
 }
 
 ::-webkit-selection {
     background-color: var(--text-primary);
-    color: #000; 
+    color: var(--surface-primary);
 }
 
 .prose :where(code):not(:where([class~=not-prose] *)) {
@@ -181,7 +181,7 @@ strong{
 }     
 
 .text-gray-200 {
-    background-color: #000;
+    background-color: var(--surface-primary);
     color: var(--text-primary);
 }
 
@@ -202,7 +202,7 @@ strong{
 }
 
 .dark .dark\:bg-gray-900, .dark .dark\:text-gray-100 {
-    background: #000;
+    background: var(--surface-primary);
     color: var(--text-primary);
 }
 
@@ -215,7 +215,7 @@ strong{
 }
 
 .bg-gray-900 {
-    background: #000;
+    background: var(--surface-primary);
 }
 
 .dark .dark\:text-white {
@@ -223,13 +223,13 @@ strong{
 }
 
 .dark .dark\:from-gray-900, .dark .dark\:from-gray-800, .dark .group:hover .dark\:group-hover\:from-\[\#2A2B32\] {
-    --tw-gradient-from: #000;
-    --tw-gradient-to: #000;
-    --tw-gradient-stops: #000;
+    --tw-gradient-from: var(--surface-primary);
+    --tw-gradient-to: var(--surface-primary);
+    --tw-gradient-stops: var(--surface-primary);
 }
 
 .dark .dark\:hover\:bg-\[\#2A2B32\]:hover {
-    background-color: #000;
+    background-color: var(--surface-primary);
 }
 
 .dark .group:hover .dark\:group-hover\:from-\[\#2A2B32\],  {
@@ -237,11 +237,11 @@ strong{
 }
 
 .dark .dark\:hover\:bg-gray-800:hover {
-    background-color: #000;
+    background-color: var(--surface-primary);
 }
 
 .markdown th {
-    background: #000;
+    background: var(--surface-primary);
     border: none;
 }
 
@@ -279,7 +279,7 @@ strong{
 }
 
 .dark .dark\:bg-gray-700 {
-    background: #000;
+    background: var(--surface-primary);
 }
 
 .text-orange-500 {
@@ -287,7 +287,7 @@ strong{
 }
 
 .dark .dark\:bg-gray-800\/90 {
-    background: #000;
+    background: var(--surface-primary);
     color: var(--text-primary);
 }
 
@@ -306,7 +306,7 @@ strong{
 }
 
 .bg-white {
-    background: #000;
+    background: var(--surface-primary);
 }
 
 .text-token-text-tertiary {
@@ -314,7 +314,7 @@ strong{
 }
 
 .bg-token-surface-secondary {
-    background: #000;
+    background: var(--surface-primary);
 }
 
 .gizmo :is(.dark .gizmo\:dark\:shadow-\[0_0_0_2px_rgba\(52\2c 53\2c 65\2c 0\.95\)\]) {
@@ -324,7 +324,7 @@ strong{
 }
 
 .gizmo :is(.dark .gizmo\:dark\:bg-gray-800) {
-    background: #000;
+    background: var(--surface-primary);
 }
 
 .gizmo :is(.dark .gizmo\:dark\:border-token-border-heavy) {
@@ -332,13 +332,13 @@ strong{
 }
 
 .bg-token-surface-primary {
-    background-color: #000;
+    background-color: var(--surface-primary);
     color: var(--text-primary);
 }
 
 .hover\:bg-token-surface-primary:hover {
     color: var(--text-primary);
-    background: #000;
+    background: var(--surface-primary);
 }
 
 .dark .dark\:from-black, .group:hover .group-hover\:from-token-surface-primary {
@@ -364,29 +364,29 @@ strong{
 
 
 .dark .dark\:hover\:bg-token-surface-primary:hover {
-    background-color: #000;
+    background-color: var(--surface-primary);
 }
 
 .dark ::-webkit-scrollbar-thumb:hover, .dark ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb {
-    background-color: #000;
+    background-color: var(--surface-primary);
 }
 
 .dark .dark\:border-gray-700 {
-    background-color: #000;
+    background-color: var(--surface-primary);
     color: var(--text-primary);
 }
 
 .\!bg-brand-purple {
-    background-color: #000 !important;
+    background-color: var(--surface-primary) !important;
     color: var(--text-primary);
 }
 
 .dark .dark\:hover\:bg-white\/5:hover {
-    background-color: #000;
+    background-color: var(--surface-primary);
 }
 
 .dark .dark\:bg-white\/10 {
-    background-color: #000;
+    background-color: var(--surface-primary);
 }
 
 .dark .dark\:bg-gray-600\/70 {
@@ -398,7 +398,7 @@ strong{
 }
 
 .btn-primary, .btn-primary:hover, .btn-disabled, .btn-disabled:hover, .btn-danger, .btn-danger:hover {
-    background-color: #000;
+    background-color: var(--surface-primary);
     color: var(--text-primary);
     border: 1px solid var(--text-primary);
     border-radius: 1px;
@@ -409,15 +409,15 @@ strong{
 }
 
 .dark .group:where([data-headlessui-state~=open]) .dark\:group-ui-open\:bg-token-surface-primary {
-    background-color: #000;
+    background-color: var(--surface-primary);
 }
 
 .dark .dark\:radix-state-active\:bg-token-surface-tertiary[data-state=active] {
-    background-color: #000;
+    background-color: var(--surface-primary);
 }
 
 .dark .dark\:hover\:bg-\[\#494A54\]:hover {
-    background-color: #000;
+    background-color: var(--surface-primary);
 }
 
 .dark .dark\:text-gray-400, .dark .dark\:text-gray-400:hover {
@@ -425,7 +425,7 @@ strong{
 }
 
 .dark .dark\:bg-gray-800\/30 {
-    background-color: #000;
+    background-color: var(--surface-primary);
 }
 
 .to-transparent {
@@ -442,7 +442,7 @@ strong{
 }
 
 .bg-token-surface-tertiary {
-    background-color: #000;
+    background-color: var(--surface-primary);
 }
 
 .text-gray-500, .text-gray-600, .text-gray-300 {
@@ -462,7 +462,7 @@ strong{
 }
 
 .dark .dark\:bg-token-surface-tertiary {
-    background-color: #000;
+    background-color: var(--surface-primary);
 }
 
 .btn-danger:focus, .btn-neutral:focus {
@@ -470,9 +470,9 @@ strong{
 }
 
 .dark .dark\:bg-token-surface-primary {
-    background: #000;
+    background: var(--surface-primary);
 }
 
 .dark .dark\:bg-token-surface-secondary {
-    background: #000;
+    background: var(--surface-primary);
 }
