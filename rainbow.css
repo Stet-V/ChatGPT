@@ -1,0 +1,591 @@
+.dark {
+    --text-primary: rgb(255 255 255) !important;
+    --text-secondary: var(--text-primary);
+    --text-tertiary: var(--text-primary);
+    --surface-primary: linear-gradient(to right, #ff0000, #ff9900, #ffff00, #33cc33, #3399ff, #9900cc) !important;
+    --surface-secondary: var(--surface-primary);
+    --surface-tertiary: var(--surface-primary);
+    --border-light: var(--text-primary);
+    --border-medium: var(--text-primary);
+    --border-heavy: var(--text-primary);
+    --rgb-animation: gradientAnimation 15s linear infinite;
+    --gradient-background-size: 1500% 100% !important;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+html{
+    color: var(--text-primary) !important;
+}
+
+.dark .dark\:text-gray-300{
+    color: var(--text-primary);
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.text-gray-400 {
+    color: var(--text-primary);
+}
+
+.md\:block {
+    display: none !important;
+}
+
+.dark body, .dark html {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .dark\:bg-\[\#444654\] {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .dark\:border-gray-900\/50 {
+    border: none;
+    --tw-shadow: none;
+    --tw-shadow-colored: none;
+    box-shadow: none;
+}
+
+
+.dark .dark\:bg-gray-800 {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .btn-neutral {
+    background: var(--surface-primary);
+    border-radius: 1px;
+    border-color: var(--text-primary);
+    color: var(--text-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .btn-neutral:hover {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+#prompt-textarea {
+    background: var(--surface-primary);
+    color: var(--text-primary);
+    text-decoration: none;
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.disabled\:opacity-40:disabled {
+    opacity: 1;
+    color: var(--text-primary);
+}
+
+.disabled\:text-gray-400:disabled {
+    --tw-text-opacity: 1;
+    color: var(--text-primary);
+}
+
+*,:after,:before {
+    border: none;
+}
+
+.icon-sm {
+    color: var(--text-primary) !important;
+    background: transparent;
+}
+
+.icon-xs {
+    color: var(--text-primary);
+}
+
+.prose {
+    color: var(--text-primary) !important;
+}
+
+.dark .dark\:text-gray-200 {
+    color: var(--surface-primary);
+    background: transparent;
+}
+
+.md\:h-48 {
+    height: 8rem;
+}
+
+.enabled\:bg-brand-purple:enabled {
+    background: var(--surface-primary) !important;
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+ ::placeholder{
+    color: var(--text-primary) !important;
+}
+
+strong{
+    color: var(--text-primary) !important; 
+}
+
+.markdown ol>li:before {
+    color: var(--text-primary) !important; 
+}
+
+.rounded-sm {
+    opacity: 0;
+}
+
+.text-white {
+    color: var(--text-primary) !important;
+    background: var(--surface-primary) !important;
+    opacity: 1 !important;
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.m-1 {
+    margin: 0;
+}
+
+.dark .dark\:hover\:bg-gray-700:hover {
+    background: var(--text-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .dark\:hover\:bg-gray-700:hover {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.h-32 {
+    height: 8rem;
+}
+
+.md\:max-w-3xl {
+    max-width: 80%; 
+}
+
+.xl\:max-w-3xl { 
+    max-width: 75%; 
+}
+
+.md\:\!bg-transparent {
+    background: var(--surface-primary) !important;
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+::selection {
+    background: #fff;
+    color: #000;
+}
+
+::-webkit-selection {
+    background: var(--text-primary);
+    color: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.prose :where(code):not(:where([class~=not-prose] *)) {
+    color: var(--text-primary) !important;
+}
+
+.markdown a, .markdown a:hover {
+    color: var(--text-primary);
+}     
+
+.text-gray-200 {
+    background: var(--surface-primary);
+    color: var(--text-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.hljs-doctag, .hljs-formula, .hljs-keyword, .hljs-literal, .hljs-bullet, .hljs-link, .hljs-selector-id, .hljs-symbol, .hljs-title, .hljs-attr, .hljs-number, .hljs-selector-attr, .hljs-selector-class, .hljs-selector-pseudo, .hljs-template-variable, .hljs-type, .hljs-variable, .hljs-addition, .hljs-attribute, .hljs-meta-string, .hljs-regexp, .hljs-string, .hljs-comment {
+    color: var(--text-primary);
+}
+
+.flex-shrink-0 {
+    color: var(--text-primary);
+}
+
+.text-2xl {
+    color: var(--text-primary);
+}
+
+.dark .dark\:text-gray-600 {
+    color: var(--text-primary);
+}
+
+.dark .dark\:bg-gray-900, .dark .dark\:text-gray-100 {
+    background: var(--surface-primary);
+    color: var(--text-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.md\:pr-1\.5 {
+    color: var(--text-primary);
+}
+
+.border-white\/20 {
+    border: none;
+}
+
+.bg-gray-900 {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .dark\:text-white {
+    color: var(--text-primary);
+}
+
+.dark .dark\:from-gray-900, .dark .dark\:from-gray-800, .dark .group:hover .dark\:group-hover\:from-\[\#2A2B32\] {
+    --tw-gradient-from: var(--surface-primary);
+    --tw-gradient-to: var(--surface-primary);
+    --tw-gradient-stops: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .dark\:hover\:bg-\[\#2A2B32\]:hover {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .group:hover .dark\:group-hover\:from-\[\#2A2B32\],  {
+    opacity: 0;
+}
+
+.dark .dark\:hover\:bg-gray-800:hover {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.markdown th {
+    background: var(--surface-primary);
+    border: none;
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.katext-error {
+    color: var(--text-primary) !important;
+}
+
+.animate-flash {
+    animation: none;
+}
+
+.prose :where(thead):not(:where([class~=not-prose] *)) {
+    border: none;
+}
+
+.prose :where(thead th):not(:where([class~=not-prose] *)) {
+    color: var(--text-primary);
+}
+
+.katex-error{
+    color: var(--text-primary) !important;
+}
+
+.hljs-meta{
+    color: var(--text-primary);
+}
+
+.hljs-built_in, .hljs-class .hljs-title {
+    color: var(--text-primary);
+}
+
+.dark .dark\:shadow-xs {
+    border: 1px solid var(--text-primary);
+    border-radius: 1px;
+}
+
+.dark .dark\:bg-gray-700 {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.text-orange-500 {
+    color: var(--text-primary);
+}
+
+.dark .dark\:bg-gray-800\/90 {
+    background: var(--surface-primary);
+    color: var(--text-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.text-token-text-secondary {
+    color: var(--text-primary);
+}
+
+.dark .gizmo-shadow-stroke:after {
+    box-shadow: none;
+    --tw-shadow: none;
+    --tw-shadow-colored: none;
+}
+
+.text-black {
+    color: var(--text-primary);
+}
+
+.bg-white {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.text-token-text-tertiary {
+    color: var(--text-primary);
+}
+
+.bg-token-surface-secondary {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.gizmo :is(.dark .gizmo\:dark\:shadow-\[0_0_0_2px_rgba\(52\2c 53\2c 65\2c 0\.95\)\]) {
+    box-shadow: none;
+    --tw-shadow: none;
+    --tw-shadow-colored: none;
+}
+
+.gizmo :is(.dark .gizmo\:dark\:bg-gray-800) {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.gizmo :is(.dark .gizmo\:dark\:border-token-border-heavy) {
+    border-color: var(--text-primary);
+}
+
+.bg-token-surface-primary {
+    background: var(--surface-primary);
+    color: var(--text-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.hover\:bg-token-surface-primary:hover {
+    color: var(--text-primary);
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .dark\:from-black, .group:hover .group-hover\:from-token-surface-primary {
+    --tw-gradient-from: transparent;
+    --tw-gradient-to: transparent;
+    --tw-gradient-stops: transparent;
+}
+
+.bg-token-text-primary {
+    background: var(--text-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .dark\:bg-black {
+    color: var(--text-primary);
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+
+.dark .dark\:shadow-\[0_0_0_2px_rgba\(52\2c 53\2c 65\2c 0\.95\)\], .dark .dark\:shadow-\[inset_0_0_0_1px_rgba\(255\2c 255\2c 255\2c 0\.1\)\] {
+    box-shadow: none;
+    border: 1px solid var(--text-primary) !important;
+    border-radius: 1px;
+}
+
+
+.dark .dark\:hover\:bg-token-surface-primary:hover {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover, .dark ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb {
+    background: var(--surface-primary);
+}
+
+.dark .dark\:border-gray-700 {
+    background: var(--surface-primary);
+    color: var(--text-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.\!bg-brand-purple {
+    background: var(--surface-primary) !important;
+    color: var(--text-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .dark\:hover\:bg-white\/5:hover {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .dark\:bg-white\/10 {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .dark\:bg-gray-600\/70 {
+    background: transparent;
+}
+
+.text-green-600 {
+    color: var(--text-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.btn-primary, .btn-primary:hover, .btn-disabled, .btn-disabled:hover, .btn-danger, .btn-danger:hover {
+    background: var(--surface-primary);
+    color: var(--text-primary);
+    border: 1px solid var(--text-primary);
+    border-radius: 1px;
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.btn:disabled {
+    opacity: 1;
+}
+
+.dark .group:where([data-headlessui-state~=open]) .dark\:group-ui-open\:bg-token-surface-primary {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .dark\:radix-state-active\:bg-token-surface-tertiary[data-state=active] {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .dark\:hover\:bg-\[\#494A54\]:hover {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .dark\:text-gray-400, .dark .dark\:text-gray-400:hover {
+    color: var(--text-primary);
+}
+
+.dark .dark\:bg-gray-800\/30 {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.to-transparent {
+    background: transparent;
+    --tw-gradient-to: none;
+}
+
+.text-red-500 {
+    color: var(--text-primary);
+}
+
+:focus {
+    outline: none !important;
+}
+
+.bg-token-surface-tertiary {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.text-gray-500, .text-gray-600, .text-gray-300 {
+    color: var(--text-primary);
+}
+
+.border-gray-100 {
+    border-color: var(--text-primary);
+}
+
+.radix-state-checked\:bg-green-600[data-state=checked] {
+    background: var(--text-primary);
+}
+
+.bg-gray-200 {
+    background: var(--text-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .dark\:bg-token-surface-tertiary {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.btn-danger:focus, .btn-neutral:focus {
+    box-shadow: none;
+}
+
+.dark .dark\:bg-token-surface-primary {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.dark .dark\:bg-token-surface-secondary {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
+
+.bg-black {
+    background: var(--surface-primary);
+    background-size: var(--gradient-background-size);
+    animation: var(--rgb-animation);
+}
