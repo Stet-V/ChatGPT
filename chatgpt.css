@@ -101,7 +101,7 @@ html{
 }
 
 .enabled\:bg-brand-purple:enabled {
-    background-color: var(--surface-primary) !important;
+    background: var(--surface-primary) !important;
 }
 
  ::placeholder{
@@ -122,7 +122,7 @@ strong{
 
 .text-white {
     color: var(--text-primary) !important;
-    background-color: var(--surface-primary) !important;
+    background: var(--surface-primary) !important;
     opacity: 1 !important;
 }
 
@@ -131,7 +131,7 @@ strong{
 }
 
 .dark .dark\:hover\:bg-gray-700:hover {
-    background-color: var(--text-primary);
+    background: var(--text-primary);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -139,11 +139,11 @@ strong{
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
 }
 
 .dark .dark\:hover\:bg-gray-700:hover {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
 }
 
 .h-32 {
@@ -159,16 +159,16 @@ strong{
 }
 
 .md\:\!bg-transparent {
-    background-color: var(--surface-primary) !important;
+    background: var(--surface-primary) !important;
 }
 
 ::selection {
-    background-color: var(--text-primary);
+    background: var(--text-primary);
     color: var(--surface-primary);
 }
 
 ::-webkit-selection {
-    background-color: var(--text-primary);
+    background: var(--text-primary);
     color: var(--surface-primary);
 }
 
@@ -181,7 +181,7 @@ strong{
 }     
 
 .text-gray-200 {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
     color: var(--text-primary);
 }
 
@@ -229,7 +229,7 @@ strong{
 }
 
 .dark .dark\:hover\:bg-\[\#2A2B32\]:hover {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
 }
 
 .dark .group:hover .dark\:group-hover\:from-\[\#2A2B32\],  {
@@ -237,7 +237,7 @@ strong{
 }
 
 .dark .dark\:hover\:bg-gray-800:hover {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
 }
 
 .markdown th {
@@ -332,7 +332,7 @@ strong{
 }
 
 .bg-token-surface-primary {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
     color: var(--text-primary);
 }
 
@@ -353,7 +353,7 @@ strong{
 
 .dark .dark\:bg-black {
     color: var(--text-primary);
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
 }
 
 
@@ -365,29 +365,29 @@ strong{
 
 
 .dark .dark\:hover\:bg-token-surface-primary:hover {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
 }
 
 .dark ::-webkit-scrollbar-thumb:hover, .dark ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:hover, ::-webkit-scrollbar-thumb {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
 }
 
 .dark .dark\:border-gray-700 {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
     color: var(--text-primary);
 }
 
 .\!bg-brand-purple {
-    background-color: var(--surface-primary) !important;
+    background: var(--surface-primary) !important;
     color: var(--text-primary);
 }
 
 .dark .dark\:hover\:bg-white\/5:hover {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
 }
 
 .dark .dark\:bg-white\/10 {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
 }
 
 .dark .dark\:bg-gray-600\/70 {
@@ -399,7 +399,7 @@ strong{
 }
 
 .btn-primary, .btn-primary:hover, .btn-disabled, .btn-disabled:hover, .btn-danger, .btn-danger:hover {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
     color: var(--text-primary);
     border: 1px solid var(--text-primary);
     border-radius: 1px;
@@ -410,15 +410,15 @@ strong{
 }
 
 .dark .group:where([data-headlessui-state~=open]) .dark\:group-ui-open\:bg-token-surface-primary {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
 }
 
 .dark .dark\:radix-state-active\:bg-token-surface-tertiary[data-state=active] {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
 }
 
 .dark .dark\:hover\:bg-\[\#494A54\]:hover {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
 }
 
 .dark .dark\:text-gray-400, .dark .dark\:text-gray-400:hover {
@@ -426,11 +426,11 @@ strong{
 }
 
 .dark .dark\:bg-gray-800\/30 {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
 }
 
 .to-transparent {
-    background-color: transparent;
+    background: transparent;
     --tw-gradient-to: none;
 }
 
@@ -443,7 +443,7 @@ strong{
 }
 
 .bg-token-surface-tertiary {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
 }
 
 .text-gray-500, .text-gray-600, .text-gray-300 {
@@ -455,15 +455,15 @@ strong{
 }
 
 .radix-state-checked\:bg-green-600[data-state=checked] {
-    background-color: var(--text-primary);
+    background: var(--text-primary);
 }
 
 .bg-gray-200 {
-    background-color: var(--text-primary);
+    background: var(--text-primary);
 }
 
 .dark .dark\:bg-token-surface-tertiary {
-    background-color: var(--surface-primary);
+    background: var(--surface-primary);
 }
 
 .btn-danger:focus, .btn-neutral:focus {
