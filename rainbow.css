@@ -2,7 +2,7 @@
     --text-primary: rgb(255 255 255) !important;
     --text-secondary: var(--text-primary);
     --text-tertiary: var(--text-primary);
-    --surface-primary: linear-gradient(to right, #ff0000, #ff9900, #ffff00, #33cc33, #3399ff, #9900cc) !important;
+    --surface-primary: linear-gradient(45deg, #ff0000, #ff9900, #ffff00, #33cc33, #3399ff, #9900cc) !important;
     --surface-secondary: var(--surface-primary);
     --surface-tertiary: var(--surface-primary);
     --border-light: var(--text-primary);
