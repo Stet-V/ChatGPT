@@ -2,9 +2,9 @@
     --text-primary: rgb(22 22 22) !important;
     --text-secondary: var(--text-primary);
     --text-tertiary: var(--text-primary);
-    --surface-primary: var(--text-primary);
-    --surface-secondary: var(--text-primary);
-    --surface-tertiary: var(--text-primary);
+    --surface-primary: rgb(0 0 0) !important;
+    --surface-secondary: var(--surface-primary);
+    --surface-tertiary: var(--surface-primary);
     --border-light: var(--text-primary);
     --border-medium: var(--text-primary);
     --border-heavy: var(--text-primary);
@@ -470,5 +470,9 @@ strong{
 }
 
 .dark .dark\:bg-token-surface-primary {
+    background: #000;
+}
+
+.dark .dark\:bg-token-surface-secondary {
     background: #000;
 }
