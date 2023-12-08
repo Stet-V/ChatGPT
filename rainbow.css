@@ -8,8 +8,8 @@
     --border-light: var(--text-primary);
     --border-medium: var(--text-primary);
     --border-heavy: var(--text-primary);
-    --rgb-animation: gradientAnimation 2s linear infinite;
-    --gradient-background-size: 100000% 100% !important;
+    --rgb-animation: gradientAnimation 15s linear infinite;
+    --gradient-background-size: 1000000% 100% !important;
 }
 
 @keyframes gradientAnimation {
@@ -324,9 +324,7 @@ strong{
 }
 
 .dark .dark\:bg-gray-700 {
-    background: var(--surface-primary);
-    background-size: var(--gradient-background-size);
-    animation: var(--rgb-animation);
+    background: transparent;
 }
 
 .text-orange-500 {
@@ -353,7 +351,7 @@ strong{
 }
 
 .bg-white {
-    background: var(--surface-primary);
+    background: transparent;
 
 }
 
@@ -453,9 +451,7 @@ strong{
 }
 
 .dark .dark\:bg-white\/10 {
-    background: var(--surface-primary);
-    background-size: var(--gradient-background-size);
-    animation: var(--rgb-animation);
+    background: transparent;
 }
 
 .dark .dark\:bg-gray-600\/70 {
@@ -563,9 +559,7 @@ strong{
 }
 
 .dark .dark\:bg-token-surface-secondary {
-    background: var(--surface-primary);
-    background-size: var(--gradient-background-size);
-    animation: var(--rgb-animation);
+    background: transparent;
 }
 
 .bg-black {
