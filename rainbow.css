@@ -8,8 +8,8 @@
     --border-light: var(--text-primary);
     --border-medium: var(--text-primary);
     --border-heavy: var(--text-primary);
-    --rgb-animation: gradientAnimation 15s linear infinite;
-    --gradient-background-size: 1500% 100% !important;
+    --rgb-animation: gradientAnimation 2s linear infinite;
+    --gradient-background-size: 100000% 100% !important;
 }
 
 @keyframes gradientAnimation {
@@ -30,9 +30,7 @@ html{
 
 .dark .dark\:text-gray-300{
     color: var(--text-primary);
-    background: var(--surface-primary);
-    background-size: var(--gradient-background-size);
-    animation: var(--rgb-animation);
+    background: transparent;
 }
 
 .text-gray-400 {
@@ -64,18 +62,15 @@ html{
 
 
 .dark .dark\:bg-gray-800 {
-    background: var(--surface-primary);
-    background-size: var(--gradient-background-size);
-    animation: var(--rgb-animation);
+    background: transparent;
+
 }
 
 .dark .btn-neutral {
-    background: var(--surface-primary);
+    background: transparent;
     border-radius: 1px;
-    border-color: var(--text-primary);
     color: var(--text-primary);
-    background-size: var(--gradient-background-size);
-    animation: var(--rgb-animation);
+    border: 1px solid var(--text-primary);
 }
 
 .dark .btn-neutral:hover {
@@ -85,11 +80,9 @@ html{
 }
 
 #prompt-textarea {
-    background: var(--surface-primary);
+    background: transparent;
     color: var(--text-primary);
     text-decoration: none;
-    background-size: var(--gradient-background-size);
-    animation: var(--rgb-animation);
 }
 
 .disabled\:opacity-40:disabled {
@@ -152,10 +145,8 @@ strong{
 
 .text-white {
     color: var(--text-primary) !important;
-    background: var(--surface-primary) !important;
+    background: transparent !important;
     opacity: 1 !important;
-    background-size: var(--gradient-background-size);
-    animation: var(--rgb-animation);
 }
 
 .m-1 {
@@ -246,10 +237,8 @@ strong{
 }
 
 .dark .dark\:bg-gray-900, .dark .dark\:text-gray-100 {
-    background: var(--surface-primary);
+    background: transparent;
     color: var(--text-primary);
-    background-size: var(--gradient-background-size);
-    animation: var(--rgb-animation);
 }
 
 .md\:pr-1\.5 {
@@ -345,10 +334,8 @@ strong{
 }
 
 .dark .dark\:bg-gray-800\/90 {
-    background: var(--surface-primary);
+    background: transparent;
     color: var(--text-primary);
-    background-size: var(--gradient-background-size);
-    animation: var(--rgb-animation);
 }
 
 .text-token-text-secondary {
@@ -367,8 +354,7 @@ strong{
 
 .bg-white {
     background: var(--surface-primary);
-    background-size: var(--gradient-background-size);
-    animation: var(--rgb-animation);
+
 }
 
 .text-token-text-tertiary {
@@ -425,9 +411,7 @@ strong{
 
 .dark .dark\:bg-black {
     color: var(--text-primary);
-    background: var(--surface-primary);
-    background-size: var(--gradient-background-size);
-    animation: var(--rgb-animation);
+    background: transparent;
 }
 
 
@@ -585,7 +569,5 @@ strong{
 }
 
 .bg-black {
-    background: var(--surface-primary);
-    background-size: var(--gradient-background-size);
-    animation: var(--rgb-animation);
+    background: transparent;
 }
